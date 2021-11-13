@@ -168,6 +168,10 @@ nav .item:hover{
 }
 
 @media (max-width: 800px) {
+    .submenu{
+        width: 300%;
+    }
+
     .sobre{
         display: none;
     }
