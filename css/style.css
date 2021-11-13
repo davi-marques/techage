@@ -167,6 +167,12 @@ nav .item:hover{
     }
 }
 
+@media (max-width: 800px) {
+    .sobre{
+        display: none;
+    }
+}
+
 @media (max-width: 620px) {
     header{
         max-width: 100%;
