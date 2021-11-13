@@ -69,7 +69,7 @@ nav .item:hover{
 .submenu{
     position: absolute;
     z-index: 1000;
-    width: 500px;
+    width: 480px;
     height: 300px;
     top: 43px;
     left: 0;

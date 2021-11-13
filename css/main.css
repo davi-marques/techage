@@ -156,19 +156,23 @@ main .subs{
 
 #finale{
     margin-top: 150px;
-    background-color: cornflowerblue;
 }
 
 #declaration{
+    line-height: 25px;
     width: 70%;
-    background-color: darkkhaki;
+    
 }
 
 #ref{
     margin-left: 65%;
-    margin-top: 20px;
-    width: 35%;
-    background-color: darkgray;
+    margin-top: 110px;
+    width: 20%;
+    line-height: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: -3px 4px 5px 1px rgba(0, 0, 0, 0.747);
+    background-color: var(--azulc);
 }
 
 /**/
