@@ -385,6 +385,10 @@ footer{
 }
 
 @media (max-width: 800px) {
+    #part1, #part2, #part3{
+        font-size: 1.1em;
+    }
+
     #part2 #text-r{
         display: inline-block;
         width: 100%;
@@ -413,12 +417,16 @@ footer{
         width: 100%;
         
     }
+
+    #finale{
+        margin-top: 125px;
+    }
     
     #ref{
         margin-left: auto;
         margin-right: auto;
         margin-top: 110px;
-        width: 75%;
+        width: 80%;
         padding: 20px 7px;
         line-height: 35px;
         text-align: center;
