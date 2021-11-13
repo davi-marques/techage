@@ -160,15 +160,16 @@ main .subs{
 
 #declaration{
     line-height: 25px;
-    width: 70%;
+    width: 100%;
     
 }
 
 #ref{
-    margin-left: 65%;
+    margin-left: auto;
+    margin-right: 180px;
     margin-top: 110px;
-    width: 20%;
-    line-height: 30px;
+    width: 280px;
+    line-height: 34px;
     padding: 20px;
     border-radius: 15px;
     box-shadow: -3px 4px 5px 1px rgba(0, 0, 0, 0.747);
@@ -299,6 +300,20 @@ footer{
         width: 75%;
         height: 75%;
     }
+
+    #declaration{
+        line-height: 25px;
+        width: 100%;
+        
+    }
+    
+    #ref{
+        margin-left: auto;
+        margin-right: 100px;
+        margin-top: 110px;
+        width: 280px;
+        line-height: 30px;
+    }
 }
 
 @media (max-width: 1090px) {
@@ -324,8 +339,6 @@ footer{
     #video{
         position: relative;
         margin: 70px 0px 0px 0px;
-        position: relative;
-        width: 100%;
         padding-bottom: 51%;
     }
     
@@ -340,7 +353,6 @@ footer{
 @media (max-width: 900px) {
     #data1{
         display: inline-block;
-        width: 100%;
     }
     
     #video{
@@ -355,6 +367,20 @@ footer{
         position: absolute;
         width: 100%;
         height: 110%;
+    }
+
+    #declaration{
+        line-height: 25px;
+        width: 100%;
+        
+    }
+    
+    #ref{
+        margin-left: auto;
+        margin-right: 50px;
+        margin-top: 110px;
+        width: 280px;
+        line-height: 30px;
     }
 }
 
@@ -380,5 +406,25 @@ footer{
     #te3{
         min-width: 100%;
         margin: 0 0 40px 0;
+    }
+
+    #declaration{
+        line-height: 25px;
+        width: 100%;
+        
+    }
+    
+    #ref{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 110px;
+        width: 370px;
+        line-height: 35px;
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    article p{
+        line-height: 30px;
     }
 }
