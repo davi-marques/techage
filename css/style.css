@@ -183,7 +183,7 @@ nav .item:hover{
         height: 340px;
         background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.788)), url(../imagens/terrraria/terraria.jpg) no-repeat;
         background-position: 0% 98%;
-        background-size: 107%;
+        background-size: 150%;
     }
 }
 
