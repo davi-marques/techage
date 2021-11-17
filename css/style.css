@@ -185,6 +185,10 @@ nav .item:hover{
         background-position: 0% 98%;
         background-size: 150%;
     }
+    
+    footer p{
+        fons
+    }
 }
 
 #tema{
@@ -217,4 +221,17 @@ nav .item:hover{
     margin-top: 23px;
     margin-right: -260px;
     float: right;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background: var(--azulc);
+    border-top: 5px solid black;
+ }
+ 
+footer p{
+    margin-top: 10px;
+    font-size: 1.1em;
 }

@@ -189,13 +189,6 @@ article p{
     line-height: 25px;
 }
 
-footer{
-   /* width: 100%;
-    height: 40px;*/
-    background: var(--vescuro);
-}
-
-
 @media (max-width: 1370px) {
     #part1 img{
         display: block;
