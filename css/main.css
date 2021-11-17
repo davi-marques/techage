@@ -179,6 +179,15 @@ article p{
     line-height: 25px;
 }
 
+.sub-t{
+    font-family: var(--balsmic);
+    font-weight: lighter;
+}
+
+.sub1{
+    font-size: 1.4em;
+}
+
 @media (max-width: 1370px) {
     #part1 img{
         display: block;

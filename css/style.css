@@ -235,9 +235,12 @@ article a:hover{
 }
 
 .sub-t{
-    width: 400px;
     padding-bottom: 10px;
     border-bottom: 5px solid var(--azul);
+}
+
+.sub1{
+    width: 280px;
 }
 
 .sub2{
