@@ -23,12 +23,32 @@
     --game: 'Zen';
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--roboto);
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    margin: 30px 20px;
+}
+
+main h1{
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
 header{
     width: 100%;
     height: 340px;
-    background: linear-gradient(to bottom, transparent, transparent, rgba(0, 0, 0, 0.788)), url(../imagens/terrraria/terraria.jpg);
-    background-position: 0% 70%;
-    background-size: 100%;
+    background: var(--azules);
 }
 
 header h1{
