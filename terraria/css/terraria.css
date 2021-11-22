@@ -206,6 +206,8 @@ article p{
     font-size: 1.4em;
 }
 
+/* RESPONSIVIDADE */
+
 @media (max-width: 1370px) {
     #part1 img{
         display: block;
@@ -257,6 +259,12 @@ article p{
     }
 }
 
+@media (max-width: 1350px) {
+    #tema, #desc{
+        
+    }
+}
+
 @media (max-width: 1260px) {
     #data1{
         display: inline-block;
@@ -275,6 +283,14 @@ article p{
 }
 
 @media (max-width: 1200px) {
+    #logo, .social{
+       
+    }
+
+    #tema, #desc{
+        margin-left: auto;
+    }
+
     #part2 #text-r{
         display: inline-block;
         width: 100%;
@@ -395,6 +411,14 @@ article p{
 }
 
 @media (max-width: 800px) {
+    .logo, .social{
+        
+    }
+
+    #tema, #desc{
+        margin: auto;
+    }
+
     #part1, #part2, #part3{
         font-size: 1.1em;
     }
