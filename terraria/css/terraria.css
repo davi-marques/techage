@@ -37,7 +37,7 @@ a{
 }
 
 #tema{
-    text-align: center;
+    text-align: right;
     margin-top: 70px;
     font-size: 5.5em;
     font-family: var(--terraria);
@@ -49,10 +49,13 @@ a{
     margin-top: 10px;
     font-family: var(--roboto);
     color: white;
-    text-align: center;
+    text-align: right;
     text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.596);
 }
 
+#tema, #desc{
+    margin-right: 70px;
+}
 
 main{
     margin: 30px 20px;
