@@ -36,6 +36,23 @@ a{
     text-decoration: none;
 }
 
+#tema{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 5.5em;
+    font-family: var(--terraria);
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+
+#desc{
+    margin-top: 10px;
+    font-family: var(--roboto);
+    color: white;
+    text-align: center;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.596);
+}
+
 main{
     margin: 30px 20px;
 }

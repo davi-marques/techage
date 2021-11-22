@@ -32,12 +32,9 @@ body{
     font-family: var(--roboto);
 }
 
-h1{
-
-}
-
 #tema{
     text-align: right;
+    margin-top: 70px;
     font-size: 5.3em;
     font-family: var(--roboto);
     color: white;
@@ -45,7 +42,9 @@ h1{
 }
 
 #desc{
+    margin-top: 10px;
     font-family: var(--roboto);
+    font-size: 1.5em;
     color: white;
     text-align: right;
     text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.596);
