@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@font-face {
+    font-family: 'Andy';
+    src: url(../fontes/ANDYB.TTF);
+}
+
+@font-face {
+    font-family: 'Zen';
+    src: url(../fontes/ZenDots-Regular.ttf);
+}
+
+:root {
+    --azulc: #A8BBE3;
+    --azul: #0000ff;
+    --azules: #060418;
+    --vescuro: #4C3428;
+
+    --balsmic: 'Balsamiq Sans';
+    --roboto: 'Roboto';
+    --terraria: 'Andy';
+    --game: 'Zen';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--roboto);
+}
+
+h1{
+
+}
+
+#tema{
+    text-align: right;
+    font-size: 5.3em;
+    font-family: var(--roboto);
+    color: white;
+    text-shadow: 2px 2px 1px black;
+}
+
+#desc{
+    font-family: var(--roboto);
+    color: white;
+    text-align: right;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.596);
+}
+
+#tema, #desc{
+    margin-right: 50px;
+}
