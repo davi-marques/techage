@@ -53,3 +53,7 @@ body{
 #tema, #desc{
     margin-right: 50px;
 }
+
+article p{
+    max-width: 800px;
+}
