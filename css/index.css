@@ -34,7 +34,7 @@ body{
 
 #tema{
     text-align: right;
-    margin-top: 70px;
+    margin-top: 20px;
     font-size: 5.3em;
     font-family: var(--roboto);
     color: white;
@@ -54,6 +54,24 @@ body{
     margin-right: 50px;
 }
 
+#descricao{
+    margin: 50px 0px 200px 0px;
+}
+
 article p{
     max-width: 800px;
+}
+
+#social{
+    margin-top: 70px;
+}
+
+footer{
+    
+}
+
+@media (max-width: 1050px) {
+    #logo, #social{
+        display: none;
+    }
 }
