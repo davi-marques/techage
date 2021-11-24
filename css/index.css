@@ -71,10 +71,6 @@ article p{
     margin-top: 70px;
 }
 
-footer{
-    
-}
-
 @media (max-width: 1050px) {
     #logo, #social{
         display: none;
