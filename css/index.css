@@ -80,3 +80,18 @@ footer{
         display: none;
     }
 }
+
+@media (max-width: 500px) {
+    #desc{
+        font-size: 1.3em;
+    }
+
+    #tema{
+        font-size: 4.7em;
+    }
+
+    #tema, #desc{
+        margin-right: 0;
+        text-align: center;
+    }
+}
