@@ -155,10 +155,6 @@ main .subs{
 #video iframe{
     position: absolute;
     max-width: 100%;
-    /*top: 5%;
-    left: 5%;
-    
-    height: 95%;*/
 }
 
 /**/
@@ -263,9 +259,7 @@ article p{
 }
 
 @media (max-width: 1350px) {
-    #tema, #desc{
-        
-    }
+
 }
 
 @media (max-width: 1260px) {
@@ -413,15 +407,18 @@ article p{
     }
 }
 
-@media (max-width: 800px) {
-    .logo, .social{
-        
+@media (max-width: 860px) {
+    #logo, .social{
+        display: none;
     }
 
     #tema, #desc{
-        margin: auto;
+        text-align: center;
+        margin-right: 0;
     }
+}
 
+@media (max-width: 800px) {
     #part1, #part2, #part3{
         font-size: 1.1em;
     }
