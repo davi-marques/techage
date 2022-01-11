@@ -98,18 +98,16 @@ nav .item:hover{
     background: #0D0933;
 }
 
-.subitem{
-    transition: .2s;
-}
-
 .subitem:hover{
     transition: .2s;
     color: var(--azulc);
 }
 
-.submenu li{
+.subitem{
+    transition: .2s;
     padding: 12px;
     margin: 12px;
+    color: white;
     border-bottom: 1px white solid;
 }
 
