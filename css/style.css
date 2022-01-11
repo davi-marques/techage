@@ -53,7 +53,6 @@ header{
 
 header h1{
     cursor: default;
-    
 }
 
 nav{
@@ -109,6 +108,10 @@ nav .item:hover{
     margin: 12px;
     color: white;
     border-bottom: 1px white solid;
+}
+
+#dropdow:hover{
+    color: white;
 }
 
 #dropdow:hover .submenu, .subitem{
