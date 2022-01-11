@@ -280,9 +280,9 @@ article p{
 }
 
 @media (max-width: 1200px) {
-    #logo, .social{
+    /*#logo, .social{
        
-    }
+    }*/
 
     #tema, #desc{
         margin-left: auto;
