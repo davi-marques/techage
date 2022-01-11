@@ -70,7 +70,7 @@ nav .menu > a, #dropdow{
     font: 1.1em 'Balsamiq Sans';
 }
 
-nav a .item{
+.item{
     display: inline-flex;
     position: relative;
     float: left;
